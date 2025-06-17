@@ -22,7 +22,7 @@ const About = () => {
             : 'bg-gray-800 text-yellow-400 hover:bg-gray-700'
         }`}
         aria-label="Toggle theme"
-        style={{ fontSize: '1rem' }}
+        style={{ fontSize: '0.75rem' }}
       >
         {isDark ? '☀️' : '🌙'}
       </button>
