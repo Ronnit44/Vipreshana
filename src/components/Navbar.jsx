@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
-
 const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
   const isDark = theme === 'dark';
